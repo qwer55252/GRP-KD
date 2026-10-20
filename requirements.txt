@@ -1,0 +1,3 @@
+# Install matching CUDA-enabled torch/torchaudio first (see docs/setup.md).
+nemo_toolkit[asr]==2.5.0
+-e .

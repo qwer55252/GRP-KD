@@ -1,38 +1,8 @@
 {
-  "name": "NeMo Dev",
+  "name": "GRP-KD",
   "image": "nvcr.io/nvidia/nemo:25.02",
-  "workspaceFolder": "/workspace",
-  // GPU 전달
-  "runArgs": [
-    "--gpus", "all",
-    "--name", "kd-via-fm",
-    "--runtime=nvidia",
-    "--shm-size", "16g",
-    "--ipc", "host",
-    "--ulimit", "memlock=-1",
-    "--ulimit", "stack=67108864",
-    "--device", "/dev/snd"
-
-  ],
-  
-  "containerEnv": {
-    "PYTHONPATH": "/opt/NeMo"
-  },
-
-  // root 권한으로 접속
-  "containerUser": "root",
-
-  "customizations": {
-    "vscode": {
-      "extensions": [
-        "ms-python.python",
-        "ms-toolsai.jupyter",
-        "ms-azuretools.vscode-docker",
-      ]
-    }
-  },
-  "forwardPorts": [8888, 6006],
-  "mounts": [
-    "source=${localWorkspaceFolder},target=/workspace,type=bind"
-  ]
+  "workspaceFolder": "/workspace/GRP-KD",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace/GRP-KD,type=bind",
+  "runArgs": ["--gpus", "all", "--shm-size", "16g", "--ipc", "host"],
+  "customizations": {"vscode": {"extensions": ["ms-python.python"]}}
 }
