@@ -1,0 +1,12 @@
+{
+  "status": "Author-selected ver5 recipe; checkpoints must be trained locally",
+  "teacher": "stt_en_conformer_ctc_small",
+  "model_version": 5,
+  "epochs": 100,
+  "batch_size": 32,
+  "latent_dim": 96,
+  "flow_steps": 8,
+  "diffusion_steps": 9,
+  "kd_alpha": 0.1,
+  "kd_temperature": 1.0
+}

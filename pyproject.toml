@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=70"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "grp-kd"
+version = "0.1.0"
+description = "Generative reconstruction pathways for ASR knowledge distillation"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+requires-python = ">=3.10,<3.13"
+authors = [{name = "Sang-Heon Jeong"}, {name = "Dong-Hyun Kim"}, {name = "Joon-Hyuk Chang"}]
+dependencies = ["soundfile>=0.12,<0.14"]
+
+[project.scripts]
+grpkd-train = "grp_kd.train:main"
+grpkd-evaluate = "grp_kd.evaluate:main"
+
+[tool.setuptools.packages.find]
+include = ["grp_kd*"]

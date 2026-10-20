@@ -1,0 +1,10 @@
+# Candidate environment; the original experiment lockfile is not available.
+name: grp-kd
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - libsndfile
+  - ffmpeg
+  - sox

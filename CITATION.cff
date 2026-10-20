@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use GRP-KD, please cite the ICASSP 2026 paper below."
+title: "GRP-KD: Knowledge Distillation via Generative Reconstruction Pathways for End-to-End Automatic Speech Recognition"
+type: software
+license: Apache-2.0
+repository-code: "https://github.com/qwer55252/GRP-KD"
+authors:
+  - family-names: Jeong
+    given-names: Sang-Heon
+  - family-names: Kim
+    given-names: Dong-Hyun
+  - family-names: Chang
+    given-names: Joon-Hyuk
+preferred-citation:
+  type: conference-paper
+  title: "Knowledge Distillation via Generative Reconstruction Pathways for End-to-End Automatic Speech Recognition"
+  authors:
+    - family-names: Jeong
+      given-names: Sang-Heon
+    - family-names: Kim
+      given-names: Dong-Hyun
+    - family-names: Chang
+      given-names: Joon-Hyuk
+  collection-title: "2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+  year: 2026

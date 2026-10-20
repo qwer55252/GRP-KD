@@ -178,5 +178,11 @@ lightning_logs/
 *.tar.gz
 data/
 outputs/
-NeMo/.github
-NeMo/.git
+third_party/NeMo/.github
+third_party/NeMo/.git
+# Local research artifacts and model weights
+*.ckpt
+*.nemo
+*.pt
+*.pth
+wandb/
