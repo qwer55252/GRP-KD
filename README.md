@@ -6,7 +6,7 @@
 
 Hanyang University · *Equal contribution
 
-[Setup](docs/setup.md) · [Data](docs/data.md) · [Reproduction guide](docs/reproducibility.md) · [Paper results](docs/results.md) · [Citation](#citation)
+[Paper](https://ieeexplore.ieee.org/abstract/document/11463778) · [Setup](docs/setup.md) · [Data](docs/data.md) · [Reproduction guide](docs/reproducibility.md) · [Paper results](docs/results.md) · [Citation](#citation)
 
 GRP-KD transfers representations from a Conformer-CTC teacher to a compact student through generative reconstruction with flow matching and diffusion. The paper reports a **3.7M-parameter student** compared with a **13.2M-parameter teacher**. Reconstruction modules are used for training; the exported student performs ordinary greedy CTC recognition.
 
